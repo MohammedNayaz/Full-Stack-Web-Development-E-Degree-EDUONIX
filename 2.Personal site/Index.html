@@ -1,0 +1,384 @@
+<!--- HTML --->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced CSS</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200..900;1,200..900&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..900;1,200..900&amp;display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link href="rpg-awesome/css/rpg-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/content.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+	<!-- Off-canvas navigation -->
+	<input type="checkbox" name="nav" class="nav-check" id="off-canvas">
+	<label rel="navigation" class="navicon" for="off-canvas"></label>
+	<nav class="site-navigation" role="navigation">
+		<h2 class="nav-title">About</h2>
+		<div class="tabs">
+			<div class="tab">
+				<input type="checkbox" id="chck0">
+				<label class="tab-label" for="chck0">Education</label>
+				<div class="tab-content">
+					<ol>
+						<li>BE - CS &amp; E</li>
+						<li>PUC - PCMCs</li>
+						<li>SSLC</li>
+					</ol>
+				</div>
+			</div>
+			<div class="tab">
+				<input type="checkbox" id="chck1">
+				<label class="tab-label" for="chck1">Hobbies</label>
+				<div class="tab-content">
+					<ol>
+						<li>Research</li>
+						<li>Code</li>
+						<li>Powerlifting</li>
+						<li>Music</li>
+						<li>Adventure</li>
+					</ol>
+				</div>
+			</div>
+			<div class="tab">
+				<input type="checkbox" id="chck2">
+				<label class="tab-label" for="chck2">Interests</label>
+				<div class="tab-content">
+					<ol>
+						<li>Programming</li>
+						<li>Workout</li>
+						<li>Music</li>
+					</ol>
+				</div>
+			</div>
+			<div class="tab">
+				<input type="checkbox" id="chck3">
+				<label class="tab-label" for="chck3">Favorite Movies</label>
+				<div class="tab-content">
+					<ol>
+						<li>Chronicle of Narnia</li>
+						<li>Avengers</li>
+						<li>Kingsmen</li>
+						<li>Fast and Furious</li>
+					</ol>
+				</div>
+			</div>
+			<div class="tab">
+				<input type="checkbox" id="chck4">
+				<label class="tab-label" for="chck4">Streamings</label>
+				<div class="tab-content">
+					<ol>
+						<li>Ertugrul Gazi</li>
+						<li>Mr. Bean</li>
+						<li>Mirzapur</li>
+					</ol>
+				</div>
+			</div>
+			<div class="tab">
+				<input type="checkbox" id="chck5">
+				<label class="tab-label" for="chck5">Motivation</label>
+				<div class="tab-content">
+					<ol>
+						<li>Elon Musk</li>
+						<li>Sunder Pichai</li>
+						<li>Jay Sean</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Site Content -->
+	<main class="site-main">
+
+		<!-- Site Header (Top bar) -->
+		<header class="top-bar">
+			<div class="left">
+				<p>Eduonix JavaScript E-Degree </p>
+			</div>
+			<div class="center">
+				<p>A course taken by  <a href="">Mohammed Nayaz</a></p>
+			</div>
+			<div class="right">
+				<nav class="social-navigation" role="navigation" aria-label="Social Links Menu">
+					<div class="menu-social-menu-container">
+						<ul id="menu-social-menu" class="social-links-menu">
+							<li id="menu-item-1" class="menu-item menu-item-1">
+								<a href="https://facebook.com">
+									<span class="screen-reader-text">Facebook</span>
+									<i class="fab fa-facebook"></i>
+								</a>
+							</li>
+							<li id="menu-item-2" class="menu-item menu-item-2">
+								<a href="https://twitter.com">
+									<span class="screen-reader-text">Twitter</span>
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li id="menu-item-3" class="menu-item menu-item-3">
+								<a href="https://youtube.com">
+									<span class="screen-reader-text">YouTube</span>
+									<i class="fab fa-youtube"></i>
+								</a>
+							</li>
+							<li id="menu-item-4" class="menu-item menu-item-4">
+								<a href="https://linkedin.com">
+									<span class="screen-reader-text">Linked In</span>
+									<i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Hero section -->
+		<section class="hero">
+			<div class="hero-content">
+				<h1 class="site-title">
+					<span>A</span><span>d</span><span>v</span><span>a</span><span>n</span><span>c</span><span>e</span><span>d</span><span class="⚡️"> </span><span>C</span><span>S</span><span>S</span>
+				</h1>
+				<div class="site-under-title">
+					<p class="site-subtitle">Your One-stop Guide to improving your CSS skills from Intermediate to Advanced</p>
+					<small class="site-host">Created by <a href="">Mohammed Nayaz</a> &amp; Hosted by <a href="">Eduonix</a></small>
+				</div>
+			</div>
+		</section>
+
+		<!-- About section -->
+		<section class="about">
+			<div class="content-box">
+				<h2 class="sub-section-title">Hi, I'm Nayaz.</h2>
+				<img class="profile-pic" alt="Picture of Aaron" src="img/Nayaz.png" width="200" />
+        <p class="about-text"><strong><a href="">Mohammed Nayaz</a></strong> is an engineering studengt at SJM Institue of Technology Chtraddurga. 
+          He has completed PUC with first class and SSLC in distinction. Now he is studing a Bacheor's Degree in Computer Science and also doing a part time 
+          E-Degree at Eduonix Learning Solutions. 
+				</p>
+			</div>
+		</section>
+
+		<!-- Course sections -->
+		<section class="content course-details">
+			<div class="class-section-grid">
+				<article class="class-section section-zero first-chapter">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-random"></i>
+									Welcome &amp; Introduction
+								</h4>
+								<p>I am Mohammed Nayaz, I am a Computer Science Engineering Aspirent <br>I love coding and I want to discover the fullest of the technologies</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">View Slides</h4>
+								<img class="course-slides" src="img/Advanced-CSS-blank.jpg" alt="Slides Img" />
+								<a class="btn" href="">Slides</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="class-section section-one">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-one"></i>
+									Education
+								</h4>
+								<p>I have done my Studies in Chitradurga that lies by the side of River Vedavati of Karnataka of India.</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">Education</h4>
+								<ul>
+									<li>BE - CS &amp; E</li>
+									<li>PUC - PCMCs</li>
+									<li>SSLC</li>
+								</ul>
+								<a class="btn">Education</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="class-section section-two">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-two"></i>
+									Hobbies
+								</h4>
+								<p>My hobbies include Creativity, Thinking and Adventure</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">Hobbies</h4>
+								<ul>
+									<li>Research</li>
+						<li>Code</li>
+						<li>Powerlifting</li>
+						<li>Music</li>
+						<li>Adventure</li>
+								</ul>
+								<a class="btn">Hobbies</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="class-section section-three">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-three"></i>
+									Interests
+								</h4>
+								<p>My main interest is in coding, Programming and developing webpages and by the side I love to spend time by doing workout to keep myself fit.</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">View Codepens</h4>
+								<ul>
+									<li>Programming</li>
+									<li>Workout</li>
+									<li>Music</li>
+								</ul>
+								<a class="btn">Interests</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="class-section section-four">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-four"></i>
+									Extra..
+								</h4>
+								<p>I have 2 youtube channels one is of my Creativity and vlogs, where another is of coding related channel.</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">YouTube</h4>
+								<ul>
+									<li>Tecnico MDN</li>
+									<li>MDN Vlogs</li>
+									<li>Tecnico Series</li>
+								</ul>
+								<a class="btn">YouTube</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="class-section section-five">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-five"></i>
+									Favorite Movies
+								</h4>
+								<p>Movies I like are mostly of Hollywood</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">View Movies</h4>
+								<ul>
+									<li>Chronicle of Narnia</li>
+						<li>Avengers</li>
+						<li>Kingsmen</li>
+						<li>Fast and Furious</li>
+								</ul>
+								<a class="btn">Favorite Movies!</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="class-section section-six final-chapter">
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-face card-front">
+								<h4 class="sub-section-title white">
+									<i class="ra ra-perspective-dice-six"></i>
+									Motivation
+								</h4>
+								<p>The best motivators of my life are Entreprenuers, Motivational Speakers, Sucessfull CEO's</p>
+							</div>
+							<div class="card-face card-back">
+								<h4 class="sub-section-title white">View Github Code</h4>
+								<ul>
+									<li>Elon Musk</li>
+									<li>Sunder Pichai</li>
+									<li>Jay Sean</li>
+								</ul>
+								<a class="btn">Ideals</a>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- Site Footer -->
+		<footer class="site-footer">
+			<h2 class="sub-section-title">Brief</h2>
+			<ul class="codepens learning-content">
+				<li>Education
+					<ol>
+						<li>BE - CS &amp; E</li>
+						<li>PUC - PCMCs</li>
+						<li>SSLC</li>
+					</ol>
+				</li>
+				<li>Hobbies
+					<ol>
+					    <li>Research</li>
+						<li>Code</li>
+						<li>Powerlifting</li>
+						<li>Music</li>
+						<li>Adventure</li>	
+					</ol>
+				</li>
+				<li>Interests
+					<ol>
+						<li>Programming</li>
+						<li>Workout</li>
+						<li>Music</li>
+					</ol>
+				</li>
+				<li>Favorite Movies
+					<ol>
+						<li>Chronicle of Narnia</li>
+						<li>Avengers</li>
+						<li>Kingsmen</li>
+						<li>Fast and Furious</li>
+					</ol>
+				</li>
+				<li>Streamings
+					<ol>
+						<li>Ertugrul Gazi</li>
+						<li>Mr. Bean</li>
+						<li>Mirzapur</li>
+					</ol>
+				</li>
+				<li><b>Motivation</b>
+					<ol>
+						<li>Elon Musk</li>
+						<li>Sunder Pichai</li>
+						<li>Jay Sean</li>
+					</ol>
+				</li>
+			</ul>
+
+			<div class="copyright">
+				&copy; 2020 Mohammed Nayaz
+			</div>
+		</footer>
+
+	</main>
+</body>
+</html>
