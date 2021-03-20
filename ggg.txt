@@ -1,0 +1,62 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.       
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6    
+
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git --version scratch> git --version
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch>  scratch> git config --global user.name "Mohammed Nayaz"        
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from.com"
+ scratch> git config --global --list
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Mohammed Nayaz
+user.email=mohammednayaz493@gmail.com
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git init
+Initialized empty Git repository in F:/Internships & Workshops/E-Degree @ Eduonix/M3 - HTML5 from scratch/.git/
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git add .
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   contact.html
+        new file:   contact2.html
+        new file:   images/img (1).jpg
+        new file:   images/img (2).jpg
+        new file:   images/img (3).jpg
+        new file:   images/img (5).jpg
+        new file:   img/img (1).jpg
+        new file:   img/img (2).jpg
+        new file:   img/img (3).jpg
+        new file:   img/img (4).jpg
+        new file:   img/img (5).jpg
+        new file:   img/img (6).jpg
+        new file:   index.html
+        new file:   style.css
+
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git commit -m "New commit"
+[master (root-commit) a021866] New commit
+ 16 files changed, 488 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 contact.html
+ create mode 100644 contact2.html
+ create mode 100644 images/img (1).jpg
+ create mode 100644 images/img (3).jpg
+ create mode 100644 images/img (5).jpg
+ create mode 100644 img/img (1).jpg
+ create mode 100644 img/img (2).jpg
+ create mode 100644 img/img (3).jpg
+ create mode 100644 img/img (4).jpg
+ create mode 100644 img/img (5).jpg
+ create mode 100644 img/img (6).jpg
+ create mode 100644 index.html
+ create mode 100644 style.css
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git remote add origin https://github.com/MohammedNayaz/Full-Stack-Web-Development-E-Degree-EDUONIX.git
+PS F:\Internships & Workshops\E-Degree @ Eduonix\M3 - HTML5 from scratch> git push -u origin master
+
+
